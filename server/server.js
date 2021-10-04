@@ -7,8 +7,6 @@ import userRoute from './routes/users.js'
 import recipeRoute from './routes/recipes.js'
 import fridgeRoute from './routes/fridge.js'
 
-// import RecipeFilter from './filters/recipes.filter.js'
-
 import dotenv from 'dotenv'
 dotenv.config()
 

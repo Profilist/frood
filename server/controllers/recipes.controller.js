@@ -2,7 +2,6 @@ import express from 'express'
 import mongoose from 'mongoose'
 
 import Recipe from '../models/Recipe.js'
-// import Filter from '../filters/recipes.filter.js'
 
 const router = express.Router()
 

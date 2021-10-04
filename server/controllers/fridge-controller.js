@@ -33,7 +33,6 @@ export const addIngredients = async (req, res) => {
 
         const id = newIngredient.id
         res.redirect('/fridge/'+id)
-        // res.status(201).json(newIngredient)
         
     } catch (err) {
         res.status(409).json({ message: err.message })
